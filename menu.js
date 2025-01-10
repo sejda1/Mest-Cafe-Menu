@@ -1,5 +1,5 @@
 const menu = {
-  kahvalti: {header: "KAHVALTI ve ATIŞTIRMALIKLAR", image: "./public/breakfast.jpeg", Options: [
+  kahvalti: {header: "KAHVALTI ve ATIŞTIRMALIKLAR", image: "/breakfast.jpeg", Options: [
     {
       title: "Kahvaltı Tabağı",
       desc: "Beyaz peynir, Kaşar peyniri, Tel peynir, Siyah zeytin, Yeşil zeytin, Domates, Salatalık, Omlet, Salam, Reçel, Tereyağı, Acuka, Bal, Kavurma </br> (1 adet çay ile servis edilir)",
@@ -22,7 +22,7 @@ const menu = {
     { title: "Patates Tava", price: 100 },
     { title: "Soğan Halkası", price: 100 },
   ]},
-  corbalar: {header:"ÇORBA ve </br> SULU YEMEKLER", image: "./public/corba.png", Options: [
+  corbalar: {header:"ÇORBA ve </br> SULU YEMEKLER", image: "/corba.png", Options: [
     {title: "(Günlük olarak çeşitleri değişkenlik göstermektedir.)", price: "Tam", halfPrice: "Yarım"},
     { title: "Mercimek Çorbası", price: 60 },
     { title: "Kelle Çorbası", price: 90 },
@@ -34,11 +34,11 @@ const menu = {
     { title: "Kuru Fasulye", price: 100, halfPrice: " "+70},
     { title: "Pilav", price: 50, halfPrice: " "+40},
   ]},
-  salatalar:{ header:"SALATALAR", image: "./public/salata.jpeg", Options: [
+  salatalar:{ header:"SALATALAR", image: "/salata.jpeg", Options: [
     { title: "Çoban Salata", price: 80 },
     { title: "Mevsim Yeşillikleri", price: 80 },
   ]},
-  anayemek: {header:"ANA YEMEKLER", image:"./public/anayemek .png", Options:[
+  anayemek: {header:"ANA YEMEKLER", image:"/anayemek .png", Options:[
     { title: "Mest Köfte", price: 350 },
     { title: "Kasap Köfte", price: 300 },
     { title: "Kaşarlı Köfte", price: 350 },
@@ -56,7 +56,7 @@ const menu = {
     { title: "Kanat", price: 250 },
     { title: "Ekmek Arası Köfte", price: 150 },
   ]},
-  burger: {header: "BURGER", image:"./public/burger.png" , Options:[
+  burger: {header: "BURGER", image:"/burger.png" , Options:[
     {
       title: "Mest Burger",
       desc: "(Patates Kızartması Eşliğinde Servis Edilir.)",
@@ -73,7 +73,7 @@ const menu = {
       price: 400,
     },
   ]},
-  mezeler: {header: "MEZELER", image:"./public/meze .jpeg", Options:[
+  mezeler: {header: "MEZELER", image:"/meze .jpeg", Options:[
     { title: "Atom", price: 0 },
     { title: "Haydari", price: 0 },
     { title: "Havuç Tarator", price: 0 },
@@ -82,7 +82,7 @@ const menu = {
     { title: "İçli Köfte", price: 0 },
   ]},
 
-  tatlilar: {header:"TATLILAR", image:"./public/tatlilar.png", Options:[
+  tatlilar: {header:"TATLILAR", image:"/tatlilar.png", Options:[
     { title: "San Sebastian", price: 150 },
     { title: "Çikolatalı San Sebastian", price: 200 },
     { title: "Cheese Cake", price: 175 },
@@ -93,7 +93,7 @@ const menu = {
     { title: "Sütlaç", price: "" },
     { title: "Dondurma (1 Top)", price: 30 },
   ]},
-  sicakicecek: {header:"SICAK İÇECEKLER", image:"./public/sicak-icecekler.jpeg",  Options:[
+  sicakicecek: {header:"SICAK İÇECEKLER", image:"/sicak-icecekler.jpeg",  Options:[
     { title: "Americano", price: 70 },
     { title: "Espresso", price: 70 },
     { title: "Cappucino", price: 90 },
@@ -113,7 +113,7 @@ const menu = {
     { title: "Çay", price: 20 },
     { title: "Bitki Çayı", price: 80 },
   ]},
-  sogukkahveler: {header:"SOĞUK KAHVELER", image:"./public/ice-coffee.jpeg",  Options:[
+  sogukkahveler: {header:"SOĞUK KAHVELER", image:"/ice-coffee.jpeg",  Options:[
     { title: "Ice Latte", price: 100 },
     { title: "Ice Karamel Latte", price: 110 },
     { title: "Ice Americano", price: 80 },
@@ -121,7 +121,7 @@ const menu = {
     { title: "Ice Karamel Macchiato", price: 110 },
     { title: "Dalgano", price: 90 },
   ]},
-  serinletici: {header:"SERİNLETİCİ İÇECEKLER" , image: "./public/soguk-icecekler .png", Options:[
+  serinletici: {header:"SERİNLETİCİ İÇECEKLER" , image: "/soguk-icecekler .png", Options:[
     { title: "Ice Chocolate", price: 110 },
     { title: "Ice Chai Tea Latte", price: 100 },
     { title: "Milkshake Çeşitleri", desc: "(Çilek, Kakao, Muz)", price: 120 },
@@ -136,7 +136,7 @@ const menu = {
       price: 150,
     },
   ]},
-  mesrubat: {header:"MEŞRUBATLAR", image:"./public/mesrubatt.jpeg" , Options:[
+  mesrubat: {header:"MEŞRUBATLAR", image:"/mesrubatt.jpeg" , Options:[
     { title: "Su", price: 15 },
     { title: "Sade Soda", price: 20 },
     { title: "Meyveli Soda", price: 25 },
@@ -152,7 +152,7 @@ const menu = {
     { title: "Ayran", price: 30 },
     { title: "Şalgam", price: 30 },
   ]},
-  sarkuteri: {header:"ŞARKÜTERİ ÜRÜNLERİ", image:"./public/sarkuteri.jpeg", Options:[
+  sarkuteri: {header:"ŞARKÜTERİ ÜRÜNLERİ", image:"/sarkuteri.jpeg", Options:[
     { title: "(Belirtilen fiyatlar 1 Kg içindir.)" , price: "kg/" },
     { title: "Sucuk", price: 600 },
     { title: "Köfte", price: 600 },
