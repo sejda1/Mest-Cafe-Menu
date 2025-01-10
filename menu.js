@@ -223,3 +223,4 @@ document.addEventListener("DOMContentLoaded", () => {
   mesrubat.innerHTML = MenuItem({ mesrubat: menu.mesrubat });
   sarkuteri.innerHTML = MenuItem({ sarkuteri: menu.sarkuteri });
 });
+
