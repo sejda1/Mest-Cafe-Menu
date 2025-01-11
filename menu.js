@@ -224,3 +224,4 @@ document.addEventListener("DOMContentLoaded", () => {
   sarkuteri.innerHTML = MenuItem({ sarkuteri: menu.sarkuteri });
 });
 
+console.log(menu.anayemek);
