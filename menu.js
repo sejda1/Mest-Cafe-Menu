@@ -38,7 +38,7 @@ const menu = {
     { title: "Çoban Salata", price: 80 },
     { title: "Mevsim Yeşillikleri", price: 80 },
   ]},
-  anayemek: {header:"ANA YEMEKLER", image:"/anayemek .png", Options:[
+  anayemek: {header:"ANA YEMEKLER", image:"/anayemek.png", Options:[
     { title: "Mest Köfte", price: 350 },
     { title: "Kasap Köfte", price: 300 },
     { title: "Kaşarlı Köfte", price: 350 },
@@ -73,7 +73,7 @@ const menu = {
       price: 400,
     },
   ]},
-  mezeler: {header: "MEZELER", image:"/meze .jpeg", Options:[
+  mezeler: {header: "MEZELER", image:"/meze.jpeg", Options:[
     { title: "Atom", price: 0 },
     { title: "Haydari", price: 0 },
     { title: "Havuç Tarator", price: 0 },
@@ -93,7 +93,7 @@ const menu = {
     { title: "Sütlaç", price: "" },
     { title: "Dondurma (1 Top)", price: 30 },
   ]},
-  sicakicecek: {header:"SICAK İÇECEKLER", image:"/sicak-icecekler.jpeg",  Options:[
+  sicakicecek: {header:"SICAK İÇECEKLER", image:"/sicakicecekler.jpeg",  Options:[
     { title: "Americano", price: 70 },
     { title: "Espresso", price: 70 },
     { title: "Cappucino", price: 90 },
@@ -113,7 +113,7 @@ const menu = {
     { title: "Çay", price: 20 },
     { title: "Bitki Çayı", price: 80 },
   ]},
-  sogukkahveler: {header:"SOĞUK KAHVELER", image:"/ice-coffee.jpeg",  Options:[
+  sogukkahveler: {header:"SOĞUK KAHVELER", image:"/icecoffee.jpeg",  Options:[
     { title: "Ice Latte", price: 100 },
     { title: "Ice Karamel Latte", price: 110 },
     { title: "Ice Americano", price: 80 },
@@ -121,7 +121,7 @@ const menu = {
     { title: "Ice Karamel Macchiato", price: 110 },
     { title: "Dalgano", price: 90 },
   ]},
-  serinletici: {header:"SERİNLETİCİ İÇECEKLER" , image: "/soguk-icecekler .png", Options:[
+  serinletici: {header:"SERİNLETİCİ İÇECEKLER" , image: "/sogukicecekler.png", Options:[
     { title: "Ice Chocolate", price: 110 },
     { title: "Ice Chai Tea Latte", price: 100 },
     { title: "Milkshake Çeşitleri", desc: "(Çilek, Kakao, Muz)", price: 120 },
@@ -136,7 +136,7 @@ const menu = {
       price: 150,
     },
   ]},
-  mesrubat: {header:"MEŞRUBATLAR", image:"/mesrubatt.jpeg" , Options:[
+  mesrubat: {header:"MEŞRUBATLAR", image:"/mesrubat.jpeg" , Options:[
     { title: "Su", price: 15 },
     { title: "Sade Soda", price: 20 },
     { title: "Meyveli Soda", price: 25 },
